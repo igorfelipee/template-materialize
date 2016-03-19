@@ -1,92 +1,40 @@
-body{
-    line-height: 25px;
-    font-size:16px;
+*{
+  margin: 0;
+  padding: 0;
 }
-.menuSite{
-    background-color:#000;
-    background-color: rgba(0,0,0,0.3);
-    box-shadow:0px 0px 0px transparent;-o-box-shadow:0px 0px 0px transparent;-moz-box-shadow:0px 0px 0px transparent;-webkit-box-shadow:0px 0px 0px transparent;
+html, body{
+  height: 100%;
 }
-.home{
-    width: 100%;
-    background-image: url('../img/picjumbo.com_HNCK1218.png');
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
+h1{
+  margin: 0 !important;
 }
-.logo{
-    margin-left:1em;
+.n-green{
+  background-color:#26A69A;
 }
-.side-nav li{
-    padding:0;
+.c-n-green{
+  color:#26A69A;
 }
-.tituloPg1{
-    color: #ffffff;
-    text-align:center;
-    margin-top:3rem;
-    padding:0 15px;
-    font-size:4em;
+.full-screen{
+  min-height: 100%;
+  height: auto;
 }
-.sobre{
-    height: 100%;
-    background-color:#002b36;
+.p-top{
+  padding-top: 80px;
 }
-.tituloSobre,.tituloHabil{
-    margin:0px;
-    padding-top:75px;
-    color:#242526;
-    text-align:center;
-    color:#fff;
+.photo{
+  background-image: url(http://content.finda.photo/unsplash/p-bkdO43shE.jpg);
+  background-size: 100%;
+  background-position: center;
 }
-.linePerfil{padding: 1em;}
-.perfil{
-    height:350px;
-    margin: 0 auto;
+.photo-center{
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
 }
-.perfil p {color:#fff;}
-.redesSociais{color:#fff;}
-.parallax-container{
-    height: 300px;
-}
-.servicos{
-    height:100%;
-    background-color:#006882;
-}
-.cardHabil{
-    width:100%;
-    height: 100%;
-}
-.cardHabil h5,p{
-    color:#ffffff;
-}
-.img-center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.portfolio{
-    background-color: #277082;
-    height: 100%;
-}
-.cardHabil,.cardPort{
-    margin-top:4em;
-}
-footer.page-footer {
-    margin-top: 0px;
-    padding-top: 20px;
-    background-color: #002b36;
-}
-
-.mg1{
-    margin-top: 0.5em;
-}
-.float-right{
-  float: right;
-}
-img[src$='.svg']{
-  width: 32px;
-  height: 32px;
+.element-2{
   color: white;
-  fill: white;
-  box-shadow: inset 2px #333;
+}
+.fixed{
+  z-index: 999999999999999;
+  position: fixed;
 }

@@ -23,4 +23,14 @@ $(document).ready(function(){
       		$('html, body').animate({scrollTop: $('#'+alvo).offset().top }, 1000);
       		return false;
         });
-		});
+});
+$(function(){
+      $(".element").typed({
+        strings: ["Igor Felipe"],
+        typeSpeed: 20
+      });
+      $(".element-2").typed({
+        strings: ["I develop web sites"],
+        typeSpeed: 40
+      });
+  });
